@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.id, .name, .phone-number {
+
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+#id-display, #name-display, #phone-number-display {
+    font-size: 20px;
+}
+
+.update-button, .delete-account-button {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+#update-phone-number-form {
+    margin-top: 20px;
+}
+
+#update-phone-number {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#new-phone-number {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#update-phone-number-submit {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#delete-account-button {
+    background-color: red;
+    color: white;
+}
